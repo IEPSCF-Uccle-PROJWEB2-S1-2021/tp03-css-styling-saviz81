@@ -5,16 +5,23 @@
 }
 
 body {
-  margin: 0 auto;
-  min-width: 1000px;
-  max-width: 1400px;
+  font-family: 'Peddana', serif;
+font-size: 18px;
+line-height:1.0;
+  min-width: 800px;
+  max-width: 1200px;
+  letter-spacing: 1px;
+
+
 }
 
 /* Layout */
 
 section {
+
   float: left;
   width: 50%;
+
 }
 
 aside {
@@ -25,6 +32,7 @@ aside {
 nav {
   float: left;
   width: 20%;
+  text-decoration: none;
 }
 
 footer {
@@ -32,7 +40,7 @@ footer {
 }
 
 header, section, aside, nav, footer {
-  padding: 20px;
+  padding: 10px;
 }
 
 /* header and footer */
@@ -43,3 +51,34 @@ header, footer {
 }
 
 /* ECRIVEZ VOTRE CODE CI-DESSOUS */
+a{color:rgb(180, 96, 145);}
+nav ul li
+{
+
+  border: 1px solid rgb(180, 96, 145);
+  padding : 20px;
+  margin-top: 30px;
+  text-align: center;
+list-style: none;
+
+font-size: 27px;
+text-decoration: none;
+width: 200px;
+}
+ul li{
+  list-style-type: square;
+}
+h1{
+  font-family: 'Josefin Slab', serif;
+  font-family: 'Peddana', serif;
+  text-align: center;
+  padding-bottom: 2px;
+}
+img {
+  width:14px;
+  height:14px;
+}
+p{
+  padding-top: 8px;
+}
+
